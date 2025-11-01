@@ -1,3 +1,4 @@
+// even & odd in array
 #include<stdio.h>
 int main()
 {
@@ -12,17 +13,18 @@ int main()
         else
           odd_array[o++]=score[i];
     }
-    printf("Even scores= ");
+    printf("Even scores= "); // even array
     if(e==0)
     printf("none");
     else
       for(i=0;i<e;i++)   
        printf("%d ",even_array[i]);
-    printf("\nOdd scores= ");
-    if(o==0)
+    printf("\nOdd scores= "); // odd array
+    if(o==0)  
     printf("none");
     else
       for(i=0;i<o;i++)
        printf("%d ",odd_array[i]);
+
 
 }
