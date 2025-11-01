@@ -1,3 +1,4 @@
+// max & min in array
 #include<stdio.h>
 int main()
 {
@@ -14,4 +15,5 @@ int main()
        min=score[i];
     }
     printf("Maximum score = %d Minimum scores are = %d",max,min);
+
 }
