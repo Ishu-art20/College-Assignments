@@ -1,3 +1,4 @@
+// Delete an element
 #include <stdio.h>
 int main() {
     int arr[6]={30,40,50,60,70};
@@ -5,7 +6,7 @@ int main() {
     printf("Original array:\n");
     for(i=0;i<n;i++) 
     {
-        printf("%d ", arr[i]);
+        printf("%d ",arr[i]);
     }
     printf("\nEnter the position to delete (1 to %d): ",n);
     scanf("%d",&pos);
@@ -24,4 +25,5 @@ int main() {
     }
     return 0;
 }
+
            
