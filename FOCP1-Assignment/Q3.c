@@ -1,3 +1,4 @@
+// Subtraction by bitwise operator
 #include<stdio.h>
 int subtract(int a,int b); //Function Header
 int main()
@@ -15,4 +16,5 @@ int subtract(int a,int b)
         a=a^b;   //performs subtraction without borrow
         b=bor<<1;  // shifts the borrow to next bit
     } return a;
+
 }
