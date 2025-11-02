@@ -1,3 +1,4 @@
+// first 99 scorer in array
 #include<stdio.h>
 int main()
 {
@@ -20,4 +21,5 @@ int main()
     else
      printf("NO one got 99 score");
     return 0;
+
 }
