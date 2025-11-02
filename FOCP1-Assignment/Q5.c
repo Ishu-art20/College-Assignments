@@ -1,3 +1,4 @@
+// coordinates in array
 #include<stdio.h>
 int main()
 {
@@ -20,4 +21,5 @@ int main()
       printf("Point lies in FOURTH Quadrant");
 
     return 0;
+
 }
