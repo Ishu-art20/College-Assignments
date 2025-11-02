@@ -1,3 +1,4 @@
+// conversion in array
 #include<stdio.h>
 #include<math.h>
 int binaryToDecimal(long b);
@@ -45,4 +46,5 @@ int binaryToDecimal(long b)
         d+=r*pow(2,i);
         ++i;
     }   return d;
+
 }
