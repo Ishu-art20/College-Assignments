@@ -1,3 +1,4 @@
+// count 99 scorers in array
 #include<stdio.h>
 int main()
 {
@@ -21,4 +22,5 @@ int main()
     else
      printf("NO Player scored 99");
     return 0;
+
 }
