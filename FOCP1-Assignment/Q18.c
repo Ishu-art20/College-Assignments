@@ -1,3 +1,4 @@
+// Duplicate element in array
 #include<stdio.h>
 int main()
 {
@@ -18,4 +19,5 @@ int main()
     if(!f)
       printf("-1 (No Duplicates)");
     return 0;
+
 }
